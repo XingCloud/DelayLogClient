@@ -74,7 +74,7 @@ public class LogServiceClient {
     private CONF conf = new CONF();
 
     private void init() {
-        InputStream inputStream = getClass().getResourceAsStream("/log_client.properties");
+        InputStream inputStream = getClass().getResourceAsStream("/delay_client.properties");
         Properties props = new Properties();
         try {
             props.load(inputStream);
